@@ -1,0 +1,10 @@
+
+
+POST http://localhost:3002/send-message HTTP/1.1
+Content-Type: application/json
+
+
+{
+  "phoneNumber": "595981411341",
+  "message": "Este es un mensaje de ejemplo"
+}
